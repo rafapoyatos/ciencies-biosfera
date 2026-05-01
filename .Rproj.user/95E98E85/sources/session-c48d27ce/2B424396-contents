@@ -1,0 +1,14 @@
+---
+# Sistema Terra
+
+El Sistema Terra es pot descriure com un sistema dinàmic.
+
+## Model simple
+
+$$
+\frac{dC}{dt} = F_{in} - F_{out}
+$$
+
+```{r}
+plot(1:10)
+---

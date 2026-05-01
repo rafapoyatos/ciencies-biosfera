@@ -1,0 +1,17 @@
+---
+
+---
+
+### 🧠 `quiz.qmd`
+
+```markdown
+# Autoavaluació
+
+::: {.quiz}
+Quin procés fixa carboni?
+
+- Respiració
+- Fotosíntesi ✔
+- Combustió
+:::
+---

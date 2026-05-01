@@ -1,0 +1,10 @@
+# Pràctica R 1
+
+## Objectiu
+
+Potser caldrà crear una carpeta per cada pràctica.
+Analitzar dades simples.
+
+```{r}
+summary(cars)
+

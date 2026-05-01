@@ -1,0 +1,8 @@
+# Ciències de la Biosfera
+
+Benvinguts al curs.
+
+Aquest curs integra:
+- Sistema Terra
+- Ecologia
+- Models quantitatius amb R

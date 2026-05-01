@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Ciències de la Biosfera"
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Inici"
+        contents:
+          - index.qmd
+
+      - section: "Temes"
+        contents:
+          - themes/tema-01-sistema-terra/index.qmd
+
+      - section: "Activitats"
+        contents:
+          - activities/practica-r-1.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: shared/styles.css
+    toc: true
