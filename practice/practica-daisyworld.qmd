@@ -2,7 +2,7 @@
 
 ## Objectiu
 
-Potser caldrà crear una carpeta per cada pràctica.
+<!-- Potser caldrà crear una carpeta per cada pràctica. -->
 Analitzar dades simples.
 
 ```{r}

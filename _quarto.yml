@@ -1,20 +1,32 @@
 project:
   type: website
+  resources:
+    - assets/
 
 website:
   title: "Ciències de la Biosfera"
+  
+  navbar:
+    left:
+      - text: "Inici"
+        href: /ca/index.qmd
+
+    right:
+      - text: "CA"
+        href: /ca/
+      - text: "ES"
+        href: /es/
+      - text: "EN"
+        href: /en/
 
   sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - section: "Inici"
+     style: "docked"
+     search: true
+     contents:
+      - section: "Temes (CA)"
         contents:
-          - index.qmd
-
-      - section: "Temes"
-        contents:
-          - themes/tema-01-sistema-terra/index.qmd
+          - text: "Tema 1: Sistema Terra"
+            href: ca/themes/t01-intro-sistema-terra/index.qmd
 
       - section: "Activitats"
         contents:
@@ -22,6 +34,15 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: shared/styles.css
+    theme: sandstone
     toc: true
+    css:
+      - shared/styles-common.css
+      - shared/styles-notes.css
+
+  revealjs:
+    theme: simple
+    toc: true
+    css:
+      - shared/styles-common.css
+      - shared/styles-slides.css

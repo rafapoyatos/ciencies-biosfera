@@ -1,0 +1,10 @@
+---
+title: "Tema 1"
+format: html
+---
+
+## Materials
+
+- [📘 Notes](notes.qmd)
+- [🎞️ Diapositives](slides.qmd)
+- [🧮 Problemes](problemes.qmd)
