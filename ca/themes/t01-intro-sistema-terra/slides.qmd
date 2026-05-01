@@ -19,21 +19,21 @@ format:
 ::: {.columns} 
 
 ::: {.column width="40%"}
-![](/assets/img/t01-intro-sistema-terra/humboldt.png){width=100%}
+![Alexander von Humboldt, 1769-1859](/assets/img/t01-intro-sistema-terra/humboldt.png){width=100%}
 :::
 
 ::: {.column width="60%"}
 
-<small>
+
 
 > **“By felling the trees, that cover the tops and the sides of mountains, men in every climate prepare at once two calamities for future generations; the want of fuel, and a scarcity of water.”**
 
 <br>
 
+<small>
 Humboldt (1818–1829), *Personal Narrative of Travels to the Equinoctial Regions of the New Continent.*
 
 </small>
-
 :::
 
 :::
@@ -42,22 +42,71 @@ Humboldt (1818–1829), *Personal Narrative of Travels to the Equinoctial Region
 
 ### Perspectives geològiques
 
-- Hutton (tb perspectiva temporal)
+::: {.columns} 
+
+::: {.column width="40%"}
+![James Hutton, 1726-1797](/assets/img/t01-intro-sistema-terra/hutton.png){width=100%}
+:::
+
+::: {.column width="60%"}
+
+> **“...from what has actually been, we have data for concluding with regard to that which is to happen thereafter.”**
+
+<br>
+
+<small>
+James Hutton(1788), *Theory of the Earth.*
+
+</small>
+
+> **“...the present is the key to the past.”**
+
+<br>
+
+<small>
+Charles Lyell (1797 - 1875)
+
+</small>
+
+:::
+
+:::
+
 
 ---
 
-### La biosfera com a idea
+### La biosfera com a concepte integrador
 
-- Vernadksy
+
+> **“The plant, whose deep roots plunge into the soil to feed, and which at the same time rises into the air to breathe, is a good illustration of organic life in the region of interaction between the upper sphere and the lithosphere, and on the surface of continents it is possible to single out an independent *biosphere*.”**
+
+
+::: {.columns} 
+
+::: {.column width="40%"}
+
+![Eduard Suess, 1831- 1914](/assets/img/t01-intro-sistema-terra/suess.png){width=80%}
+:::
+
+::: {.column width="60%"}
+![Vladimir I. Vernadsky, 1863 - 1945](/assets/img/t01-intro-sistema-terra/vernadsky.jpg){width=50%}
+:::
+
+:::
+
 
 ---
 
-### Els inicis: 1920s - 1970s
+### 1920s - 1970s: inicis de les ciències de la biosfera
 
-Una cronologia de les ciències de la biosfera
+* Primeres aportacions teòriques i observacionals. 
 
-![](assets/img/t01-intro-sistema-terra/ess_timeline_1.png){width=70%}
-### Els inicis: 1920s- 1970s
+![](/assets/img/t01-intro-sistema-terra/ess_timeline_1.png){width=90%}
+[Steffen *et al* 2020, *Nat Rev Earth Environ*](https://10.1038/s43017-019-0005-6){style="font-size: 0.5em;"}
+
+---
+
+### 1920s - 1970s: inicis de les ciències de la biosfera
 
 - Context històric: tecnologia i la Guerra Freda.
 - Enfocament quantitatiu del funcionament de la Terra.
@@ -65,8 +114,108 @@ Una cronologia de les ciències de la biosfera
 - Emergència de l’ecologia i les ciències ambientals.
 - Problemes ambientals globals, el planeta com a límit.
 
---
-## 1.2. Eines, conceptes i metodologies per les ciències de la biosfera
+---
+
+### Tecnologia aplicada a ciències de la biosfera
+
+::: {.columns} 
+
+::: {.column width="40%"}
+
+![](/assets/img/t01-intro-sistema-terra/tectonics.png){width=80%}
+[Oreskes 2013, *Nature*](https://doi.org/10.1038/501027a){style="font-size: 0.5em;"}
+
+:::
+
+::: {.column width="60%"}
+
+* Aplicació de **tecnologies militars** (WWII, Guerra Freda):
+
+  - Radar (seguiment tempestes).
+  - Magnetòmetres (polaritat camp magnètic terrestre).
+  - Sonar (cartografia fons oceànics).
+  - Sismògrafs.
+  - Computació balística (modelització climàtica).
+
+:::
+
+:::
+
+---
+
+### Quantificant la biosfera des de l'espai
+
+- Satèl·lits d'**observació de la Terra** comencen a proporcionar dades periòdiques sobre el funcionament de la biosfera.
+- **LANDSAT** imatges multiespectrals cada 16 dies amb resolucions espacials de 15-60 m des de 1972.
+
+
+:::{style="overflow: hidden; height: 40vh; margin-top: 0.1em;"}
+
+![](/assets/img/t01-intro-sistema-terra/landsat.png){style="object-fit: cover; object-position: center;"}
+
+:::
+
+[Pennisi 2021, *Science*](https://www.science.org/content/article/meet-landsat-pioneer-who-fought-revolutionize-earth-observation){style="font-size: 0.5em;"}
+
+---
+
+### Ciència col·laborativa internacional
+
+- International Geophysical Year (1957 - 1958)
+
+---
+
+### Ciència col·laborativa internacional
+
+- International Geosphere-Biosphere Programme (1987 – 2015)
+
+ * Integrated Land Ecosystem-Atmosphere Processes Study (iLEAPS)
+ * Global Carbon Project (GCP)
+ * Past Global Changes (PAGES)
+ * Analysis, Integration and Modelling of the Earth System (AIMES)
+ 
+---
+
+### Ecologia d'ecosistemes
+
+- Fluxes matèria i energia
+
+---
+
+### El planeta com a límit
+
+* Imatges Terra o una altra cosa? 
+
+---
+
+### El naixement de les ciències de la biosfera
+
+* Bretherton
+
+---
+
+
+### La hipòtesi Gaia
+
+### Gaia i les hipòtesis alternatives
+
+### Una visió crítica de Gaia
+
+
+## 1.2. Eines i aproximacions en ciències de la biosfera
+
+* Top-dwon i bottom-up. Canvis escala.
+* Mesures atmosfera: estacions, radiosondatges, radars, torres.
+* Mesures hidrosfera: cabals, nivells aigua, evaporació
+* Mesures hidrosfera: boies, etc
+* Mesures litosfera: 
+* Mesures biosfera: fluxes co2
+* Observació de la Terra
+* Experiments
+* Experiments en xarxa
+* Paleoclimatologia, paleoecologia (gel, tree-rings,datació, isòtops)
+* Modelització
+* Biosfera II
 
 ---
 

@@ -1,0 +1,279 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/quiz.html",
+    "href": "themes/t01-intro-sistema-terra/quiz.html",
+    "title": "Ciències de la Biosfera",
+    "section": "",
+    "text": "🧠 quiz.qmd\n```markdown # Autoavaluació\n\nQuin procés fixa carboni?\n\nRespiració\nFotosíntesi ✔\nCombustió"
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/index.html",
+    "href": "themes/t01-intro-sistema-terra/index.html",
+    "title": "Tema 1",
+    "section": "",
+    "text": "📘 Notes\n🎞️ Diapositives\n🧮 Problemes",
+    "crumbs": [
+      "Temes",
+      "Tema 1: Sistema Terra"
+    ]
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/index.html#materials",
+    "href": "themes/t01-intro-sistema-terra/index.html#materials",
+    "title": "Tema 1",
+    "section": "",
+    "text": "📘 Notes\n🎞️ Diapositives\n🧮 Problemes",
+    "crumbs": [
+      "Temes",
+      "Tema 1: Sistema Terra"
+    ]
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/slides.html#sistema-terra",
+    "href": "themes/t01-intro-sistema-terra/slides.html#sistema-terra",
+    "title": "Tema 1: Sistema Terra",
+    "section": "Sistema Terra",
+    "text": "Sistema Terra\nUna visió integrada de: - Atmosfera - Hidrosfera - Biosfera"
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/slides.html#components-del-sistema",
+    "href": "themes/t01-intro-sistema-terra/slides.html#components-del-sistema",
+    "title": "Tema 1: Sistema Terra",
+    "section": "Components del sistema",
+    "text": "Components del sistema"
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/slides.html#model-simple",
+    "href": "themes/t01-intro-sistema-terra/slides.html#model-simple",
+    "title": "Tema 1: Sistema Terra",
+    "section": "Model simple",
+    "text": "Model simple\n\\[\n\\frac{dC}{dt} = F_{in} - F_{out}\n\\]"
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/slides.html#exemple-en-r",
+    "href": "themes/t01-intro-sistema-terra/slides.html#exemple-en-r",
+    "title": "Tema 1: Sistema Terra",
+    "section": "Exemple en R",
+    "text": "Exemple en R\nplot(1:10)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ciències de la Biosfera",
+    "section": "",
+    "text": "Ciències de la Biosfera\nBenvinguts al curs.\nAquest curs integra: - Sistema Terra - Ecologia - Models quantitatius amb R"
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/problemes.html",
+    "href": "themes/t01-intro-sistema-terra/problemes.html",
+    "title": "Problemes",
+    "section": "",
+    "text": "Problemes\n\\[\nN(t) = N_0 e^{rt}\n\\]"
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/notes.html",
+    "href": "themes/t01-intro-sistema-terra/notes.html",
+    "title": "Tema 1",
+    "section": "",
+    "text": "El Sistema Terra es pot descriure com un sistema dinàmic.\n\n\n\\[\n\\frac{dC}{dt} = F_{in} - F_{out}\n\\]"
+  },
+  {
+    "objectID": "themes/t01-intro-sistema-terra/notes.html#model-simple",
+    "href": "themes/t01-intro-sistema-terra/notes.html#model-simple",
+    "title": "Tema 1",
+    "section": "",
+    "text": "\\[\n\\frac{dC}{dt} = F_{in} - F_{out}\n\\]"
+  },
+  {
+    "objectID": "practice/practica-daisyworld.html",
+    "href": "practice/practica-daisyworld.html",
+    "title": "Pràctica R 1",
+    "section": "",
+    "text": "Analitzar dades simples.\nsummary(cars)"
+  },
+  {
+    "objectID": "practice/practica-daisyworld.html#objectiu",
+    "href": "practice/practica-daisyworld.html#objectiu",
+    "title": "Pràctica R 1",
+    "section": "",
+    "text": "Analitzar dades simples.\nsummary(cars)"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/quiz.html",
+    "href": "ca/themes/t01-intro-sistema-terra/quiz.html",
+    "title": "Ciències de la Biosfera",
+    "section": "",
+    "text": "🧠 quiz.qmd\n```markdown # Autoavaluació\n\nQuin procés fixa carboni?\n\nRespiració\nFotosíntesi ✔\nCombustió"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/index.html",
+    "href": "ca/themes/t01-intro-sistema-terra/index.html",
+    "title": "Tema 1",
+    "section": "",
+    "text": "📘 Notes\n🎞️ Diapositives\n🧮 Problemes",
+    "crumbs": [
+      "Inici",
+      "Temes (CA)",
+      "Tema 1: Sistema Terra"
+    ]
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/index.html#materials",
+    "href": "ca/themes/t01-intro-sistema-terra/index.html#materials",
+    "title": "Tema 1",
+    "section": "",
+    "text": "📘 Notes\n🎞️ Diapositives\n🧮 Problemes",
+    "crumbs": [
+      "Inici",
+      "Temes (CA)",
+      "Tema 1: Sistema Terra"
+    ]
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#sistema-terra",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#sistema-terra",
+    "title": "Tema 1: Sistema Terra",
+    "section": "Sistema Terra",
+    "text": "Sistema Terra\nUna visió integrada de: - Atmosfera - Hidrosfera - Biosfera"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#components-del-sistema",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#components-del-sistema",
+    "title": "Tema 1: Sistema Terra",
+    "section": "Components del sistema",
+    "text": "Components del sistema"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#model-simple",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#model-simple",
+    "title": "Tema 1: Sistema Terra",
+    "section": "Model simple",
+    "text": "Model simple\n\\[\n\\frac{dC}{dt} = F_{in} - F_{out}\n\\]"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#exemple-en-r",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#exemple-en-r",
+    "title": "Tema 1: Sistema Terra",
+    "section": "Exemple en R",
+    "text": "Exemple en R\nplot(1:10)"
+  },
+  {
+    "objectID": "ca/index.html",
+    "href": "ca/index.html",
+    "title": "Ciències de la Biosfera",
+    "section": "",
+    "text": "Ciències de la Biosfera\nBenvinguts al curs.\nAquest curs integra: - Sistema Terra - Ecologia - Models quantitatius amb R"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/problemes.html",
+    "href": "ca/themes/t01-intro-sistema-terra/problemes.html",
+    "title": "Problemes",
+    "section": "",
+    "text": "Problemes\n\\[\nN(t) = N_0 e^{rt}\n\\]"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/notes.html",
+    "href": "ca/themes/t01-intro-sistema-terra/notes.html",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "",
+    "text": "Humboldt associa el descens del nivell del llac Valencia (Veneçuela) a la deforestació local.\n\n\n\n\n\n\n“By felling the trees, that cover the tops and the sides of mountains, men in every climate prepare at once two calamities for future generations; the want of fuel, and a scarcity of water.” \n\n\nHumboldt (1818–29), Personal Narrative of Travels to the Equinoctial Regions of the New Continent.\n\n\n\n\n\n\n\nVernadksy\n\n\n\n\n\nText"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/notes.html#model-simple",
+    "href": "ca/themes/t01-intro-sistema-terra/notes.html#model-simple",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "Model simple",
+    "text": "Model simple\n\\[\n\\frac{dC}{dt} = F_{in} - F_{out}\n\\]"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/notes.html#plot110",
+    "href": "ca/themes/t01-intro-sistema-terra/notes.html#plot110",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "plot(1:10)",
+    "text": "plot(1:10)"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/notes.html#orígens-de-les-ciències-de-la-biosfera",
+    "href": "ca/themes/t01-intro-sistema-terra/notes.html#orígens-de-les-ciències-de-la-biosfera",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "",
+    "text": "Humboldt associa el descens del nivell del llac Valencia (Veneçuela) a la deforestació local.\n\n\n\n\n\n\n“By felling the trees, that cover the tops and the sides of mountains, men in every climate prepare at once two calamities for future generations; the want of fuel, and a scarcity of water.” \n\n\nHumboldt (1818–29), Personal Narrative of Travels to the Equinoctial Regions of the New Continent.\n\n\n\n\n\n\n\nVernadksy\n\n\n\n\n\nText"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/notes.html#orígens-de-les-ciències-de-la-biosfera-1",
+    "href": "ca/themes/t01-intro-sistema-terra/notes.html#orígens-de-les-ciències-de-la-biosfera-1",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "Orígens de les ciències de la biosfera",
+    "text": "Orígens de les ciències de la biosfera\n\nVernadsky"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#orígens-de-les-ciències-de-la-biosfera",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#orígens-de-les-ciències-de-la-biosfera",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "1.1. Orígens de les ciències de la biosfera",
+    "text": "1.1. Orígens de les ciències de la biosfera"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#orígens-de-les-ciències-de-la-biosfera-1",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#orígens-de-les-ciències-de-la-biosfera-1",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "Orígens de les ciències de la biosfera",
+    "text": "Orígens de les ciències de la biosfera\nVernadsky"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#orígens-de-les-ciències-de-la-biosfera-2",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#orígens-de-les-ciències-de-la-biosfera-2",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "Orígens de les ciències de la biosfera",
+    "text": "Orígens de les ciències de la biosfera\nVernadsky"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#el-sistema-terra",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#el-sistema-terra",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "1.3. El Sistema Terra",
+    "text": "1.3. El Sistema Terra"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#eines-conceptes-i-metodologies-per-les-ciències-de-la-biosfera",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#eines-conceptes-i-metodologies-per-les-ciències-de-la-biosfera",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "1.2. Eines, conceptes i metodologies per les ciències de la biosfera",
+    "text": "1.2. Eines, conceptes i metodologies per les ciències de la biosfera"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/notes.html#eines-conceptes-i-metodologies-per-les-ciències-de-la-biosfera",
+    "href": "ca/themes/t01-intro-sistema-terra/notes.html#eines-conceptes-i-metodologies-per-les-ciències-de-la-biosfera",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "1.2. Eines, conceptes i metodologies per les ciències de la biosfera",
+    "text": "1.2. Eines, conceptes i metodologies per les ciències de la biosfera"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/notes.html#el-sistema-terra",
+    "href": "ca/themes/t01-intro-sistema-terra/notes.html#el-sistema-terra",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "1.3. El Sistema Terra",
+    "text": "1.3. El Sistema Terra"
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html#section",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html#section",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "",
+    "text": "Els inicis: 1920s- 1970s\n\nContext històric: tecnologia i la Guerra Freda.\nEnfocament quantitatiu del funcionament de la Terra.\nDesenvolupament de la ciència colaborativa internacional\nEmergència de l’ecologia i les ciències ambientals.\nProblemes ambientals globals, el planeta com a límit."
+  },
+  {
+    "objectID": "ca/themes/t01-intro-sistema-terra/slides.html",
+    "href": "ca/themes/t01-intro-sistema-terra/slides.html",
+    "title": "Tema 1. Introducció a les ciències de la biosfera",
+    "section": "",
+    "text": "Interaccions biosfera-atmosfera.\nDescens del nivell del llac València (Veneçuela) i desforestació local.\n\n\n\n\n\n\n“By felling the trees, that cover the tops and the sides of mountains, men in every climate prepare at once two calamities for future generations; the want of fuel, and a scarcity of water.”\n\n\n Humboldt (1818–1829), Personal Narrative of Travels to the Equinoctial Regions of the New Continent.\n\n\n\n\n\n\n\n\nHutton (tb perspectiva temporal)\n\n\n\n\n\n\nVernadksy\n\n\n\n\n\n\nPrimeres aportacions teòriques i observacionals.\n\n Steffen et al 2020, Nat Rev Earth Environ\n\n\n\n\n\nContext històric: tecnologia i la Guerra Freda.\nEnfocament quantitatiu del funcionament de la Terra.\nDesenvolupament de la ciència colaborativa internacional\nEmergència de l’ecologia i les ciències ambientals.\nProblemes ambientals globals, el planeta com a límit.\n\n\n\n\n\n\n\n Oreskes 2013, Nature\n\n\nAplicació de tecnologies militars (WWII, Guerra Freda):\n\nRadar (seguiment tempestes)\nMagnetòmetres (camp magnètic terrestre)\nSonar (cartografia fons oceànics)\nComputació balística (modelització climàtica)\n\n\n\n\n\n\n\n\n\nSatèl·lits d’observació de la Terra comencen a proporcionar dades periòdiques sobre el funcionament de la biosfera.\nLANDSAT imatges multiespectrals cada 16 dies amb resolucions espacials de 15-60 m des de 1972.\n\n\n\n\nPennisi 2021, Science"
+  }
+]
