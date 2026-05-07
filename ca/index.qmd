@@ -12,6 +12,7 @@ Assignatura de Ciències de la Biosfera dels Graus de Biologia i Biologia Ambien
 
 TODO: Caldria veure si afegir el tema dels biomes.
 TODO: Desenvolupar els temes en unitats temàtiques (taula, amb nombre de sessions)
+TODO: Repartir classes amb la Sandra.
 
 ### Bloc I. Introducció.
 
