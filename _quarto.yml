@@ -32,10 +32,13 @@ website:
         contents:
           - activities/practica-r-1.qmd
 
+bibliography: references.bib
+
 format:
   html:
     theme: sandstone
     toc: true
+    link-citations: true
     css:
       - shared/styles-common.css
       - shared/styles-notes.css

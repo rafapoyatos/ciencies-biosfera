@@ -37,7 +37,11 @@ execute:
 
 ### La biosfera com a idea
 
-- Vernadksy
+- Vernadksy desenvolupa el concepte de biosfera [@vernadsky1997].
+
+The Gaia hypothesis [@lovelock1979] proposes that...
+
+@steffen2018 showed that Earth system trajectories...
 
 ### Els inicis: 1920s - 1970s
 
@@ -49,3 +53,8 @@ execute:
 
 
 ## 1.3. El Sistema Terra
+
+## Referències
+
+::: {#refs}
+:::
