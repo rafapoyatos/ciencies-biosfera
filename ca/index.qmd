@@ -1,8 +1,36 @@
-# Ciències de la Biosfera
+---
+title: "Ciències de la Biosfera"
+format: html
+---
 
-Benvinguts al curs.
+<!-- Continguts de l'assignatura -->
 
-Aquest curs integra:
-- Sistema Terra
-- Ecologia
-- Models quantitatius amb R
+Assignatura de Ciències de la Biosfera dels Graus de Biologia i Biologia Ambiental a la Universitat Autònoma de Barcelona (UAB).
+
+
+## Continguts teòrics
+
+TODO: Caldria veure si afegir el tema dels biomes.
+TODO: Desenvolupar els temes en unitats temàtiques (taula, amb nombre de sessions)
+
+### Bloc I. Introducció.
+
+1. Orígens i desenvolupament de les Ciències de la Biosfera.
+2. Conceptes i eines per les Ciències de la Biosfera.
+
+### Bloc II. Components abiòtics principals
+3. Balanç energètic.
+4. Atmosfera: estructura i dinàmica.
+5. Hidrosfera.
+6. Criosfera.
+7. Litosfera.
+
+### Bloc III. La biota i els cicles biogeoquímics.
+8. Balanç de carboni orgànic: processos biològics.
+9. Balanç de carboni global.
+10. Altres interaccions de la biota al Sistema Terra.
+11. Cicles de nutrients.
+
+### Bloc IV. Canvis ambientals globals
+12. Història ambiental de la Terra.
+13. La Biosfera a l'Antropocè.

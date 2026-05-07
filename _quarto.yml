@@ -9,7 +9,7 @@ website:
   navbar:
     left:
       - text: "Inici"
-        href: /ca/index.qmd
+        href: ca/index.qmd
 
     right:
       - text: "CA"
