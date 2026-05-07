@@ -2,4 +2,4 @@
 /.quarto/
 **/*.quarto_ipynb
 .positai
-"_site/"
+_site/
