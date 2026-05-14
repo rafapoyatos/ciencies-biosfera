@@ -18,7 +18,7 @@ TODO: Pensar en repartiment classes amb professorat.
 
 ### Bloc I. Introducció.
 
-1. Introdució a les Ciències de la biosfera.
+1. Introducció a les Ciències de la biosfera.
 2. Conceptes i eines per les Ciències de la biosfera.
 
 ### Bloc II. Components abiòtics principals

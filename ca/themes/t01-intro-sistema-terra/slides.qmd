@@ -156,29 +156,69 @@ Charles Lyell (1797 - 1875)
 :::
 
 [Pennisi 2021, *Science*](https://www.science.org/content/article/meet-landsat-pioneer-who-fought-revolutionize-earth-observation){style="font-size: 0.5em;"}
+[; Landsat program, wikipedia](https://en.wikipedia.org/wiki/Landsat_program){style="font-size: 0.5em;"}
+
+---
+
+
+### Ciència col·laborativa internacional
+
+::: {.columns} 
+
+::: {.column width="35%"}
+
+* *International Geophysical Year* (1957 - 1958)
+
+
+  - Observació de la Terra.
+  - Compartició de dades entre institucions i països (*World Data Centers*).
+  - Bases Antàrtiques.
+
+:::
+
+::: {.column width="65%"}
+
+![](/assets/img/t01-intro-sistema-terra/Antarctica_1957.jpg){width=60%}
+    
+:::
+
+:::
+
+[International Geophysical Year, wikipedia](https://en.wikipedia.org/wiki/International_Geophysical_Year){style="font-size: 0.5em;"}
 
 ---
 
 ### Ciència col·laborativa internacional
 
-- International Geophysical Year (1957 - 1958)
+::: {.columns} 
 
----
+::: {.column width="50%"}
 
-### Ciència col·laborativa internacional
+* *International Geosphere-Biosphere Programme* (1987 – 2015): canvi global, interacció de processos biològics al sistema Terra.
+* Humanitat com a principal motor de canvi planetari.
+* Projectes derivats:  
+  - *Global Carbon Project (GCP)* 
+  - *Past Global Changes (PAGES)*
 
-- International Geosphere-Biosphere Programme (1987 – 2015)
+:::
 
- * Integrated Land Ecosystem-Atmosphere Processes Study (iLEAPS)
- * Global Carbon Project (GCP)
- * Past Global Changes (PAGES)
- * Analysis, Integration and Modelling of the Earth System (AIMES)
- 
+::: {.column width="35%"}
+
+![](/assets/img/t01-intro-sistema-terra/IGBP_logo.gif)
+![](/assets/img/t01-intro-sistema-terra/igbp_book.jpg){width=80%}
+
+:::
+
+:::
+
+[Web IGBP](http://www.igbp.net/){style="font-size: 0.5em;"}
+[, wikipedia](https://en.wikipedia.org/wiki/International_Geosphere-Biosphere_Programme){style="font-size: 0.5em;"}
+
 ---
 
 ### Ecologia d'ecosistemes
 
-- Fluxes matèria i energia
+- Fluxes matèria i energia (Odum?), sistema tancat, etc.
 
 ---
 
@@ -190,7 +230,13 @@ Charles Lyell (1797 - 1875)
 
 ### El naixement de les ciències de la biosfera
 
-* Bretherton
+* Diagrama de Bretherton (NASA, 1986): forçaments externs i interaccions biogeoquímica-sistema climàtic.
+
+::: {style="overflow: hidden; height: 500px;"}
+![](/assets/img/t01-intro-sistema-terra/bretherton.png){width=80% style="object-fit: cover; object-position: top;"}
+:::
+
+[Steffen *et al* 2020, *Nat Rev Earth Environ*](https://10.1038/s43017-019-0005-6){style="font-size: 0.5em;"}
 
 ---
 
