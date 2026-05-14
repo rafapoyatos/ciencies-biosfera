@@ -25,8 +25,17 @@ website:
      contents:
       - section: "Temes (CA)"
         contents:
-          - text: "Tema 1: Sistema Terra"
+          - section: "Tema 1: Sistema Terra"
             href: ca/themes/t01-intro-sistema-terra/index.qmd
+            contents:
+              - text: "📘 Notes"
+                href: ca/themes/t01-intro-sistema-terra/notes.qmd
+              - text: "🎞️ Diapositives"
+                href: ca/themes/t01-intro-sistema-terra/slides.qmd
+              - text: "🧮 Problemes"
+                href: ca/themes/t01-intro-sistema-terra/problemes.qmd
+              - text: "🧠 Autoavaluació"
+                href: ca/themes/t01-intro-sistema-terra/quiz.qmd
 
       - section: "Activitats"
         contents:

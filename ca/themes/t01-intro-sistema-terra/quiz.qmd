@@ -1,17 +1,47 @@
 ---
+title: "Autoavaluació – Tema 1"
+format:
+  html:
+    toc: false
+---
+
+```{r}
+#| include: false
+library(webexercises)
+```
+
+Respon les preguntes per comprovar si has entès els conceptes clau del tema.
 
 ---
 
-### 🧠 `quiz.qmd`
+## 1.1. Orígens de les ciències de la biosfera
 
-```markdown
-# Autoavaluació
+**1.** Quin científic va associar el descens del nivell del llac de Valencia (Veneçuela) a la
+deforestació local, en un dels primers exemples documentats d'impacte humà sobre el medi? `r mcq(c("Charles Darwin", "Vladimir Vernadsky", answer = "Alexander von Humboldt", "James Lovelock"))`
 
-::: {.quiz}
-Quin procés fixa carboni?
+**2.** Quin procés biogeoquímic fixa el carboni atmosfèric en matèria orgànica? `r mcq(c("Respiració cel·lular", "Combustió", answer = "Fotosíntesi", "Descomposició"))`
 
-- Respiració
-- Fotosíntesi ✔
-- Combustió
-:::
+**3.** Completa la frase: El concepte de **biosfera** tal com s'entén avui va ser desenvolupat principalment per `r fitb("Vernadsky", ignore_case = TRUE)`.
+
+**4.** La hipòtesi de Gaia, formulada per James Lovelock, proposa que la Terra funciona com: `r mcq(c("Un sistema tancat sense interacció entre components", "Un conjunt de cicles geoquímics independents", answer = "Un sistema autoregulat en el qual els éssers vius modifiquen les condicions del planeta", "Un sistema dominat exclusivament per processos geològics"))`
+
+**5.** En quin rang de dècades se situen els orígens de les ciències del sistema Terra, quan van emergir les primeres aproximacions integradores? `r mcq(c("1850s–1880s", answer = "1920s–1970s", "1980s–2000s", "2000s–2020s"))`
+
 ---
+
+## 1.2. Eines, conceptes i metodologies
+
+**6.** Les ciències de la biosfera integren coneixements de diverses disciplines. Marca quina
+de les següents **no** és una disciplina central en aquest camp: `r mcq(c("Ecologia", "Climatologia", "Biogeoquímica", answer = "Enginyeria mecànica"))`
+
+**7.** Cert o fals: els models del sistema Terra permeten simular interaccions entre l'atmosfera, la hidrosfera, la biosfera i la geosfera. `r torf(TRUE)`
+
+---
+
+## 1.3. La Terra com a sistema
+
+**8.** Un sistema en el qual tant l'energia com la matèria s'intercanvien amb l'exterior s'anomena sistema `r fitb("obert", ignore_case = TRUE)`.
+
+**9.** Quin dels components següents **no** forma part del sistema Terra? `r mcq(c("Atmosfera", "Hidrosfera", answer = "Magnetosfera lunar", "Biosfera"))`
+
+**10.** Completa: Steffen et al. (2018) van proposar el concepte de **trajectòries del sistema Terra** per descriure els possibles futurs del planeta en funció de les `r fitb(c("emissions", "accions humanes", "pressions antròpiques"), ignore_case = TRUE)` humanes.
