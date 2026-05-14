@@ -8,16 +8,18 @@ format: html
 Assignatura de Ciències de la Biosfera dels Graus de Biologia i Biologia Ambiental a la Universitat Autònoma de Barcelona (UAB).
 
 
+## Objectius
+
 ## Continguts teòrics
 
 TODO: Caldria veure si afegir el tema dels biomes.
 TODO: Desenvolupar els temes en unitats temàtiques (taula, amb nombre de sessions)
-TODO: Repartir classes amb la Sandra.
+TODO: Pensar en repartiment classes amb professorat.
 
 ### Bloc I. Introducció.
 
-1. Orígens i desenvolupament de les Ciències de la Biosfera.
-2. Conceptes i eines per les Ciències de la Biosfera.
+1. Introdució a les Ciències de la biosfera.
+2. Conceptes i eines per les Ciències de la biosfera.
 
 ### Bloc II. Components abiòtics principals
 3. Balanç energètic.
@@ -29,9 +31,31 @@ TODO: Repartir classes amb la Sandra.
 ### Bloc III. La biota i els cicles biogeoquímics.
 8. Balanç de carboni orgànic: processos biològics.
 9. Balanç de carboni global.
-10. Altres interaccions de la biota al Sistema Terra.
+10. Altres interaccions de la biota al sistema Terra.
 11. Cicles de nutrients.
 
 ### Bloc IV. Canvis ambientals globals
 12. Història ambiental de la Terra.
 13. La Biosfera a l'Antropocè.
+
+
+## Llibres de text
+
+Les Ciències de la biosfera integren diverses disciplines necessàries per explicar el funcionament del sistema Terra, com la biogeoquímica, la biometeorologia, l'ecologia d'ecosistemes o la paleocologia. Aquesta interdisciplinarietat fa que coexisteixin a la literatura múltiples perspectives, i per tant, textos de referència, on hi predomina alguna d'aquestes disciplines. 
+
+Aquí explico breument les característiques generals dels diferents llibres de text que he utilitzat per dissenyar els continguts de l'assignatura.
+
+
+-Lenton: com a text global, curt.
+-Kump: text ~global, més desenvolupat, perspectiva sistemes, història ambiental.
+-Jacobson 2000: text ~ global, menys actualitzat
+-Skinner & Murck: text ~global, complementari a Kump, components més individualitzats.
+-Grotzinger & Jordan: enfocament geològic.
+-Bonan 2015:  enfoc en ecosistemes terrestres, biometeorologia.
+-Schlesinger 2013: enfoc en biogeoquímica, processos i més detallat en ecosistems concrets (wetlands, etc.).
+-Chapin 2011: perspectiva ecologia ecosistemes i biogeoquímica.
+-Knoll 2013: perspectiva biogeoquímica, història ambiental.
+
+## Articles
+
+## Bibliografia
