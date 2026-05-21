@@ -3,3 +3,4 @@
 **/*.quarto_ipynb
 .positai
 _site/
+.Rhistory
