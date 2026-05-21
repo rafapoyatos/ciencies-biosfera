@@ -21,23 +21,23 @@ TODO: Pensar en repartiment classes amb professorat.
 1. Introducció a les Ciències de la biosfera.
 2. Conceptes i eines per les Ciències de la biosfera.
 
-### Bloc II. Components abiòtics principals
+### Bloc II. Components abiòtics del sistema Terra
 3. Balanç energètic.
 4. Atmosfera: estructura i dinàmica.
 5. Hidrosfera.
 6. Criosfera.
 7. Litosfera.
 
-### Bloc III. La biota i els cicles biogeoquímics.
-8. Balanç de carboni orgànic: processos biològics.
-9. Balanç de carboni global.
-10. Altres interaccions de la biota al sistema Terra.
+### Bloc III. Cicles biogeoquímics i interaccions al sistema Terra
+8. Cicle del carboni orgànic.
+9. Cicle del carboni global.
+10. Interaccions de la biota al sistema Terra.
 11. Cicles de nutrients.
 
-### Bloc IV. Canvis ambientals globals
+### Bloc IV. Canvis ambientals globals i la seva predicció
 12. Història ambiental de la Terra.
 13. La Biosfera a l'Antropocè.
-
+14. Modelització del sistema Terra.
 
 ## Llibres de text
 
