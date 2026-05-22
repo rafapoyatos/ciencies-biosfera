@@ -9,13 +9,15 @@ format:
 
 ## 1.1. Desenvolupament de les ciències de la biosfera
 
+* TODO: posar imatges de la terra Apollo vs Artemis, planeta com a límit.
+
 ---
 
 ### Orígens ecològics
 
 - Interaccions biosfera-atmosfera-hidrosfera: descens del nivell del llac València (Veneçuela) i deforestació local.
 
-::: {.columns} 
+::: {.rows}
 
 ::: {.column width="40%"}
 ![Alexander von Humboldt, 1769-1859](/assets/img/t01-intro-sistema-terra/humboldt.png){width=100%}
@@ -41,7 +43,7 @@ Humboldt (1818–1829), *Personal Narrative of Travels to the Equinoctial Region
 
 ### Orígens geològics
 
-::: {.columns} 
+::: {.rows}
 
 ::: {.column width="40%"}
 ![James Hutton, 1726-1797](/assets/img/t01-intro-sistema-terra/hutton.png){width=100%}
@@ -79,7 +81,7 @@ Charles Lyell (1797 - 1875)
 > **“The plant, whose deep roots plunge into the soil to feed, and which at the same time rises into the air to breathe, is a good illustration of organic life in the region of interaction between the upper sphere and the lithosphere, and on the surface of continents it is possible to single out an independent *biosphere*.”**
 
 
-::: {.columns} 
+::: {.rows}
 
 ::: {.column width="40%"}
 
@@ -116,7 +118,7 @@ Charles Lyell (1797 - 1875)
 
 ### Tecnologia aplicada a ciències de la biosfera
 
-::: {.columns} 
+::: {.rows}
 
 ::: {.column width="40%"}
 
@@ -144,7 +146,7 @@ Charles Lyell (1797 - 1875)
 
 ### Ciència col·laborativa internacional
 
-::: {.columns} 
+::: {.rows}
 
 ::: {.column width="35%"}
 
@@ -187,9 +189,9 @@ Charles Lyell (1797 - 1875)
 
 ### Ciència col·laborativa internacional
 
-::: {.columns} 
+::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="65%"}
 
 * *International Geosphere-Biosphere Programme* (1987 – 2015): canvi global, interacció de processos biològics al sistema Terra.
 * Humanitat com a principal motor de canvi planetari.
@@ -221,7 +223,7 @@ Charles Lyell (1797 - 1875)
 
 ### El planeta com a límit
 
-* Imatges Terra o una altra cosa? 
+* Limits to growth?
 
 ---
 
@@ -230,43 +232,124 @@ Charles Lyell (1797 - 1875)
 * Diagrama de Bretherton (NASA, 1986): forçaments externs i interaccions biogeoquímica-sistema climàtic.
 
 ::: {style="overflow: hidden; height: 500px;"}
-![](/assets/img/t01-intro-sistema-terra/bretherton.png){width=80% style="object-fit: cover; object-position: top;"}
-:::
 
+![](/assets/img/t01-intro-sistema-terra/bretherton.png){width=80% style="object-fit: cover; object-position: top;"}
 [Steffen *et al* 2020, *Nat Rev Earth Environ*](https://10.1038/s43017-019-0005-6){style="font-size: 0.5em;"}
+
+:::
 
 ---
 
 ### La hipòtesi Gaia
 
----
 
-### Gaia i les hipòtesis alternatives
+* **James Lovelock (1919-2022)**, químic, cerca vida extraterrestre, postula que l'atmosfera terrestre és resultat de l'activitat biològica.
+* Les interaccions de la biota amb l'ambient *autoregulen* la Terra per mantenir-la en un estat *habitable*.
 
----
-
-### Una visió crítica de Gaia
+![[@schlesinger2013], Chapter 2](/assets/img/t01-intro-sistema-terra/planets.png){.r-stretch}
 
 ---
 
-### Lliçons de Biosfera 2
+### Gaia test
+
+* Quina d'aquestes afirmacions penses que descriu millor com funciona la biosfera?
+* TODO: posar enllaç a wooclap
+
+---
+
+### Gaia: contribucions i crítiques 
+
+* **Contribucions**: perspectiva de la Terra com a sistema, interaccions de la biota al sistema Terra.
+
+* **Crítiques**: visió teleològica (inicial), incompatibilitats amb selecció natural, resiliència planetària exagerada.
 
 ---
 
 ## 1.2. Eines i aproximacions en ciències de la biosfera
 
-* Top-dwon i bottom-up. Canvis escala.
-* Mesures atmosfera: estacions, radiosondatges, radars, torres.
-* Mesures hidrosfera: cabals, nivells aigua, evaporació
-* Mesures hidrosfera: boies, etc
-* Mesures litosfera: 
-* Mesures biosfera: fluxes co2
-* Observació de la Terra
-* Experiments
-* Experiments en xarxa
-* Paleoclimatologia, paleoecologia (gel, tree-rings,datació, isòtops)
-* Modelització
-* Biosfera II
+* TODO: posar alguna imatge.  
 
 ---
 
+### Escales i processos 
+
+* Com integrar mesures a diferentes escales per millorar el coneixement del funcionament planetari?
+* Top-down: mesura integradora, Bottom-up: comprensió dels mecanismes.
+
+---
+
+### Diversitat, heterogeneïtat
+
+* Diversitat biològica i ambiental
+
+---
+
+### Exemples 
+
+* leaf photosynthesis ≠ forest productivity
+
+---
+
+
+
+### Mesures a l'atmosfera
+
+* Estacions, radiosondatges, radars, torres.
+
+---
+
+### Mesures a l'hidrosfera
+
+* Mesures hidrosfera: cabals, nivells aigua, evaporació.
+
+---
+
+### Mesures a l'hidrosfera
+
+* Boies, mostrejos
+
+---
+
+### Mesures litosfera
+
+* Geoquímica, isòtops (arxius), biomarcadors
+
+---
+
+### Mesures criosfera
+
+* Geoquímica, gel.
+
+---
+
+### Paleo
+
+---
+
+### Mesures biosfera
+
+* Fluxes CO2
+
+---
+
+### Experiments
+
+---
+
+### Experiments en xarxa
+
+---
+
+### Observació de la Terra
+
+---
+
+### Modelització
+
+---
+
+## Biosfera II
+
+---
+
+### Referències

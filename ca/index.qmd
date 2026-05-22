@@ -18,8 +18,13 @@ TODO: Pensar en repartiment classes amb professorat.
 
 ### Bloc I. Introducció.
 
-1. Introducció a les Ciències de la biosfera.
-2. Conceptes i eines per les Ciències de la biosfera.
+1. Introducció a les ciències de la biosfera.
+
+Orígens de les ciències de la biosfera. Desenvolupament de les ciències de la biosfera. La hipòtesi Gaia. 
+
+2. Conceptes i eines per les ciències de la biosfera.
+
+
 
 ### Bloc II. Components abiòtics del sistema Terra
 3. Balanç energètic.
@@ -37,11 +42,11 @@ TODO: Pensar en repartiment classes amb professorat.
 ### Bloc IV. Canvis ambientals globals i la seva predicció
 12. Història ambiental de la Terra.
 13. La Biosfera a l'Antropocè.
-14. Modelització del sistema Terra.
+14. Projeccions del sistema Terra.
 
 ## Llibres de text
 
-Les Ciències de la biosfera integren diverses disciplines necessàries per explicar el funcionament del sistema Terra, com la biogeoquímica, la biometeorologia, l'ecologia d'ecosistemes o la paleocologia. Aquesta interdisciplinarietat fa que coexisteixin a la literatura múltiples perspectives, i per tant, textos de referència, on hi predomina alguna d'aquestes disciplines. 
+Les ciències de la biosfera integren diverses disciplines necessàries per explicar el funcionament del sistema Terra, com la biogeoquímica, la biometeorologia, l'ecologia d'ecosistemes o la paleocologia. Aquesta interdisciplinarietat fa que coexisteixin a la literatura múltiples perspectives, i per tant, textos de referència, on hi predomina alguna d'aquestes disciplines. 
 
 Aquí explico breument les característiques generals dels diferents llibres de text que he utilitzat per dissenyar els continguts de l'assignatura.
 
