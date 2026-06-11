@@ -1,0 +1,37 @@
+---
+title: "Autoavaluació – Tema 2"
+format:
+  html:
+    toc: false
+---
+
+```{r}
+#| include: false
+library(webexercises)
+```
+
+Respon les preguntes per comprovar si has entès els conceptes clau del tema.
+
+---
+
+## 2.1. Concepte de sistema
+
+<!-- preguntes pendents -->
+
+---
+
+## 2.2. Retroalimentació
+
+<!-- preguntes pendents -->
+
+---
+
+## 2.3. Estats estacionaris i temps de residència
+
+<!-- preguntes pendents -->
+
+---
+
+## 2.4. Cicles biogeoquímics
+
+<!-- preguntes pendents -->

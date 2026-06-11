@@ -20,3 +20,4 @@ explicar el clima actual i les seves variacions.
 
 - [🎞️ Diapositives](slides.qmd)
 - [🧮 Problemes](problemes.qmd)
+- [🔬 Activitats](activitats.qmd)

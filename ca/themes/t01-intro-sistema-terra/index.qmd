@@ -15,7 +15,8 @@ TODO: podria generar-se aquest índex a partir dels documents slides o notes?
 - [📘 Notes](notes.qmd)
 - [🎞️ Diapositives](slides.qmd)
 
-## Activitats
+## Activitats del tema
 
 - [🧮 Problemes](problemes.qmd)
-- [🧠 Autoavaluació](quiz.qmd))
+- [🧠 Autoavaluació](quiz.qmd)
+- [🔬 Activitats](activitats.qmd))

@@ -2,10 +2,37 @@
    SLIDES (revealjs)
 ========================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Raleway:wght@400;600;700&display=swap');
+
+:root {
+  --r-main-font: "Open Sans", sans-serif;
+  --r-heading-font: "Raleway", sans-serif;
+}
+
 /* Slide titles */
-.reveal h1,
-.reveal h2 {
+.reveal h1 {
   color: #3e3f3a;
+}
+
+.reveal h2 {
+  color: #fff;
+  background-color: #264a6e;
+  padding: 0.25em 0.5em;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.reveal h3 {
+  color: #fff;
+  background-color: #325d88;
+  padding: 0.2em 0.5em;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 1.2em;
 }
 
 /* Quotes */
@@ -22,10 +49,6 @@
 /* Base font size for slide content */
 .reveal .slides {
   font-size: 0.75em;
-}
-
-.reveal h3 {
-  font-size: 1.2em;
 }
 
 /* Quotes in slides */

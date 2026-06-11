@@ -1,0 +1,25 @@
+---
+title: "Tema 2. Problemes"
+author:
+  - Josep Piñol
+  - Rafael Poyatos
+format:
+  html:
+    toc: true
+    toc-location: right
+    toc-title: "Contingut"
+    toc-depth: 3
+    toc-expand: true
+
+engine: knitr
+
+filters:
+  - webr
+
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+<!-- Problemes pendents -->

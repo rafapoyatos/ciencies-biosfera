@@ -1,71 +1,76 @@
 project:
   type: website
-  resources:
-    - assets/
-
+  resources: assets/
 website:
-  title: "Ciències de la Biosfera"
-  
+  title: Ciències de la Biosfera
   navbar:
     left:
-      - text: "Inici"
-        href: ca/index.qmd
-
+    - text: Inici
+      href: ca/index.qmd
     right:
-      - text: "CA"
-        href: /ca/
-      - text: "ES"
-        href: /es/
-      - text: "EN"
-        href: /en/
-
+    - text: CA
+      href: /ca/
+    - text: ES
+      href: /es/
+    - text: EN
+      href: /en/
   sidebar:
-     style: "docked"
-     search: true
-     contents:
-      - section: "Temes (CA)"
+    style: docked
+    search: true
+    contents:
+    - section: Temes (CA)
+      contents:
+      - section: 'Tema 1: Sistema Terra'
+        href: ca/themes/t01-intro-sistema-terra/index.qmd
         contents:
-          - section: "Tema 1: Sistema Terra"
-            href: ca/themes/t01-intro-sistema-terra/index.qmd
-            contents:
-              - text: "📘 Notes"
-                href: ca/themes/t01-intro-sistema-terra/notes.qmd
-              - text: "🎞️ Diapositives"
-                href: ca/themes/t01-intro-sistema-terra/slides.qmd
-              - text: "🧮 Problemes"
-                href: ca/themes/t01-intro-sistema-terra/problemes.qmd
-              - text: "🧠 Autoavaluació"
-                href: ca/themes/t01-intro-sistema-terra/quiz.qmd
-
-          - section: "Tema 2: Sistemes"
-            href: ca/themes/t02-sistemes/index.qmd
-
-          - section: "Tema 3: Balanç Energètic"
-            href: ca/themes/t03-balanç-energetic/index.qmd
-            contents:
-              - text: "🎞️ Diapositives"
-                href: ca/themes/t03-balanç-energetic/slides.qmd
-              - text: "🧮 Problemes"
-                href: ca/themes/t03-balanç-energetic/problemes.qmd
-
-      - section: "Activitats"
+        - text: "\U0001F4D8 Notes"
+          href: ca/themes/t01-intro-sistema-terra/notes.qmd
+        - text: "\U0001F39E️ Diapositives"
+          href: ca/themes/t01-intro-sistema-terra/slides.qmd
+        - text: "\U0001F9EE Problemes"
+          href: ca/themes/t01-intro-sistema-terra/problemes.qmd
+        - text: "\U0001F9E0 Autoavaluació"
+          href: ca/themes/t01-intro-sistema-terra/quiz.qmd
+        - text: "\U0001F52C Activitats"
+          href: ca/themes/t01-intro-sistema-terra/activitats.qmd
+      - section: 'Tema 2: Fonaments del Sistema Terra'
+        href: ca/themes/t02-fonaments-sistema-terra/index.qmd
         contents:
-          - activities/practica-r-1.qmd
-
+        - text: "\U0001F39E️ Diapositives"
+          href: ca/themes/t02-fonaments-sistema-terra/slides.qmd
+        - text: "\U0001F4D8 Notes"
+          href: ca/themes/t02-fonaments-sistema-terra/notes.qmd
+        - text: "\U0001F9EE Problemes"
+          href: ca/themes/t02-fonaments-sistema-terra/problemes.qmd
+        - text: "\U0001F9E0 Autoavaluació"
+          href: ca/themes/t02-fonaments-sistema-terra/quiz.qmd
+        - text: "\U0001F52C Activitats"
+          href: ca/themes/t02-fonaments-sistema-terra/activitats.qmd
+      - section: 'Tema 3: Balanç Energètic'
+        href: ca/themes/t03-balanç-energetic/index.qmd
+        contents:
+        - text: "\U0001F39E️ Diapositives"
+          href: ca/themes/t03-balanç-energetic/slides.qmd
+        - text: "\U0001F9EE Problemes"
+          href: ca/themes/t03-balanç-energetic/problemes.qmd
+        - text: "\U0001F52C Activitats"
+          href: ca/themes/t03-balanç-energetic/activitats.qmd
+    - section: Activitats globals
+      contents: activities/practica-r-1.qmd
 bibliography: references.bib
-
 format:
   html:
     theme: sandstone
     toc: true
     link-citations: true
     css:
-      - shared/styles-common.css
-      - shared/styles-notes.css
-
+    - shared/styles-common.css
+    - shared/styles-notes.css
+    - include/webex.css
+    include-after-body: include/webex.js
   revealjs:
     theme: simple
     toc: true
     css:
-      - shared/styles-common.css
-      - shared/styles-slides.css
+    - shared/styles-common.css
+    - shared/styles-slides.css

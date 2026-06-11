@@ -20,7 +20,7 @@ TODO: Pensar en repartiment classes amb professorat.
 
 1. Introducció a les ciències de la biosfera.
 
-Orígens de les ciències de la biosfera. Desenvolupament de les ciències de la biosfera. La hipòtesi Gaia. 
+Per què unes ciències de la biosfera? Orígens de les ciències de la biosfera. Desenvolupament de les ciències de la biosfera. La hipòtesi Gaia. 
 
 2. Conceptes i eines per les ciències de la biosfera.
 

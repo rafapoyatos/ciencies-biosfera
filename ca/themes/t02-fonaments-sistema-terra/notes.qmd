@@ -1,0 +1,31 @@
+---
+title: "Tema 2. Fonaments del Sistema Terra"
+format:
+  html:
+    toc: true
+    toc-location: right
+    toc-title: "Contingut"
+    toc-depth: 3
+    toc-expand: true
+
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## 2.1. Concepte de sistema: components, reserves i fluxos
+
+<!-- contingut pendent -->
+
+## 2.2. Retroalimentació positiva i negativa
+
+<!-- contingut pendent -->
+
+## 2.3. Estats estacionaris i temps de residència
+
+<!-- contingut pendent -->
+
+## 2.4. Els grans cicles biogeoquímics
+
+<!-- contingut pendent -->

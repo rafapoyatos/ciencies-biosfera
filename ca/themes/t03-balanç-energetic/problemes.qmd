@@ -57,12 +57,14 @@ r2 <- 1      # UA, distància Terra-Sol (referència)
 # Venus
 r1 <- 0.72   # UA
 S1_venus <- S2 * (r2 / r1)^2
-S1_venus
 
 # Mart
 r1 <- 1.52   # UA
 S1_mart <- S2 * (r2 / r1)^2
-S1_mart
+
+cat(sprintf("Venus rep un flux de radiació de %.0f W·m⁻²\n", S1_venus))
+cat(sprintf("Mart  rep un flux de radiació de %.0f W·m⁻²\n", S1_mart))
+cat(sprintf("(la Terra en rep %.0f W·m⁻²)\n", S2))
 ```
 
 :::
@@ -114,19 +116,154 @@ epsilon <- 1         # emissivitat (cos negre)
 S     <- 2637        # W/m², flux solar (Problema 3.1)
 alpha <- 0.80        # albedo
 Te_venus <- (S * (1 - alpha) / (4 * epsilon * sigma))^(1/4)
-Te_venus
 
 # Mart
 S     <- 592
 alpha <- 0.22
 Te_mart <- (S * (1 - alpha) / (4 * epsilon * sigma))^(1/4)
-Te_mart
 
 # Terra (comparació)
 S     <- 1367
 alpha <- 0.30
 Te_terra <- (S * (1 - alpha) / (4 * epsilon * sigma))^(1/4)
-Te_terra
+
+cat(sprintf("Temperatura d'equilibri de Venus: %.1f K (%.1f °C)\n",
+            Te_venus, Te_venus - 273.15))
+cat(sprintf("Temperatura d'equilibri de Mart:  %.1f K (%.1f °C)\n",
+            Te_mart,  Te_mart  - 273.15))
+cat(sprintf("Temperatura d'equilibri de Terra: %.1f K (%.1f °C)\n",
+            Te_terra, Te_terra - 273.15))
+cat("\nMalgrat estar més a prop del Sol, Venus té una temperatura inferior",
+    "\na la Terra a causa del seu elevat albedo (0.80).\n")
+```
+
+:::
+
+---
+
+## Problema 3.3
+
+Les temperatures mitjanes de la superfície de Venus i Mart són 730 K i 218 K,
+respectivament. Utilitzant el resultat del problema anterior, calcula la
+magnitud de l'efecte hivernacle a cada planeta. Et sorprenen aquests resultats?
+
+::: {.callout-tip collapse="true"}
+## Solució
+
+L'efecte hivernacle d'un planeta es pot estimar com la diferència entre la seva
+temperatura real ($T_{real}$) i la seva temperatura d'equilibri ($T_e$,
+calculada al problema anterior):
+
+$$T_g = T_{real} - T_e$$
+
+**Venus** ($T_{real} = 730$ K, $T_e \approx 220$ K):
+
+$$T_g = 730 - 220 = 510 \text{ K}$$
+
+**Mart** ($T_{real} = 218$ K, $T_e \approx 212$ K):
+
+$$T_g = 218 - 212 = 6 \text{ K}$$
+
+Per comparar, calculem també la **Terra** ($T_{real} = 288$ K,
+$T_e \approx 255$ K):
+
+$$T_g = 288 - 255 = 33 \text{ K}$$
+
+Hi ha grans diferències en la magnitud de l'efecte hivernacle entre els tres
+planetes, que responen al grau de desenvolupament de l'atmosfera. Venus té una
+atmosfera molt més densa que la de la Terra (bàsicament CO₂), mentre que la de
+Mart és molt tènue.
+
+### Solució en R
+
+```{webr-r}
+# Temperatures reals de la superfície
+T_real_venus <- 730    # K
+T_real_mart  <- 218    # K
+T_real_terra <- 288    # K
+
+# Temperatures d'equilibri (Problema 3.2)
+Te_venus <- 220        # K
+Te_mart  <- 212        # K
+Te_terra <- 255        # K
+
+# Efecte hivernacle
+Tg_venus <- T_real_venus - Te_venus
+Tg_mart  <- T_real_mart  - Te_mart
+Tg_terra <- T_real_terra - Te_terra
+
+cat(sprintf("Efecte hivernacle de Venus: %.0f K\n", Tg_venus))
+cat(sprintf("Efecte hivernacle de Mart:  %.0f K\n", Tg_mart))
+cat(sprintf("Efecte hivernacle de Terra: %.0f K\n", Tg_terra))
+cat("\nVenus té un efecte hivernacle enorme per la seva densa atmosfera de CO₂.\n")
+cat("Mart, amb una atmosfera molt tènue, en té un de gairebé negligible.\n")
+```
+
+:::
+
+---
+
+## Problema 3.5
+
+(a) Mercuri es troba a una distància de 0.387 UA del Sol. Si la constant solar
+mitjana de la Terra val 1367 W·m⁻², quant val la constant solar mitjana de
+Mercuri?
+
+(b) L'excentricitat ($e$) d'una òrbita es defineix com el quocient
+$(r_a - r_p)\,/\,(r_a + r_p)$, on $r_a$ és el radi de l'òrbita en l'afeli
+(punt més allunyat) i $r_p$ el radi en el periheli (punt més proper). Mercuri
+és el planeta del sistema solar amb una excentricitat més gran ($e = 0.206$).
+Calcula el quocient de radiació rebuda del Sol entre els moments del periheli i
+de l'afeli.
+
+::: {.callout-tip collapse="true"}
+## Solució
+
+### Apartat (a)
+
+Per la llei de l'invers del quadrat, prenent la Terra com a referència:
+
+$$S = S_0 \cdot \left(\frac{r_0}{r}\right)^2$$
+
+La constant solar de Mercuri ($r_M = 0.387$ UA):
+
+$$S_M = 1367 \cdot \left(\frac{1}{0.387}\right)^2 = 9127 \text{ W·m}^{-2}$$
+
+### Apartat (b)
+
+![Geometria d'una òrbita el·líptica. El Sol ocupa un dels focus; $r_p$ és la distància al periheli i $r_a$ la distància a l'afeli.](/assets/img/t03-balanç-energetic/excentricitat.png){width=80% fig-align="center"}
+
+A partir de la definició d'excentricitat podem aïllar el quocient $r_a / r_p$:
+
+$$e = \frac{r_a - r_p}{r_a + r_p} \implies \frac{r_a}{r_p} = \frac{1 + e}{1 - e} = \frac{1 + 0.206}{1 - 0.206} = 1.52$$
+
+Aplicant la llei de l'invers del quadrat al quocient de fluxos:
+
+$$\frac{S_p}{S_a} = \left(\frac{r_a}{r_p}\right)^2 = (1.52)^2 = 2.31$$
+
+Mercuri rep **2.31 vegades més radiació** en el moment del periheli que en el de l'afeli.
+
+### Solució en R
+
+```{webr-r}
+# Apartat (a)
+S0  <- 1367    # W/m², constant solar terrestre
+r0  <- 1       # UA, distància Terra-Sol
+r_M <- 0.387   # UA, distància Mercuri-Sol
+
+S_M <- S0 * (r0 / r_M)^2
+cat(sprintf("Constant solar de Mercuri: %.0f W·m⁻² (%.1f vegades la de la Terra)\n",
+            S_M, S_M / S0))
+
+# Apartat (b)
+e <- 0.206
+
+ra_rp <- (1 + e) / (1 - e)   # quocient r_a / r_p
+Sp_Sa <- ra_rp^2              # quocient de fluxos periheli/afeli
+
+cat(sprintf("\nQuocient r_a/r_p: %.2f\n", ra_rp))
+cat(sprintf("Mercuri rep %.2f vegades més radiació al periheli que a l'afeli.\n",
+            Sp_Sa))
 ```
 
 :::

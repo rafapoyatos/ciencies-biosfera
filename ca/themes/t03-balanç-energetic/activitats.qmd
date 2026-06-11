@@ -1,0 +1,17 @@
+---
+title: "Tema 3. Activitats"
+format:
+  html:
+    toc: true
+    toc-location: right
+    toc-title: "Contingut"
+    toc-depth: 3
+    toc-expand: true
+
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+<!-- Activitats pendents -->

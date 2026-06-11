@@ -1,0 +1,24 @@
+---
+title: "Tema 2. Fonaments del Sistema Terra"
+format: html
+---
+
+El Sistema Terra és un conjunt de components interconnectats — atmosfera,
+hidrosfera, litosfera i biosfera — que intercanvien energia i matèria. En
+aquest tema introduïm les eines conceptuals per entendre com funciona aquest
+sistema: reserves, fluxos, retroalimentacions i estats estacionaris.
+
+## Continguts teòrics
+
+2.1. Concepte de sistema: components, reserves i fluxos.  
+2.2. Retroalimentació positiva i negativa.  
+2.3. Estats estacionaris i temps de residència.  
+2.4. Els grans cicles biogeoquímics.
+
+## Activitats
+
+- [🎞️ Diapositives](slides.qmd)
+- [📘 Notes](notes.qmd)
+- [🧮 Problemes](problemes.qmd)
+- [🧠 Autoavaluació](quiz.qmd)
+- [🔬 Activitats](activitats.qmd)
