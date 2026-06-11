@@ -37,6 +37,17 @@ website:
               - text: "🧠 Autoavaluació"
                 href: ca/themes/t01-intro-sistema-terra/quiz.qmd
 
+          - section: "Tema 2: Sistemes"
+            href: ca/themes/t02-sistemes/index.qmd
+
+          - section: "Tema 3: Balanç Energètic"
+            href: ca/themes/t03-balanç-energetic/index.qmd
+            contents:
+              - text: "🎞️ Diapositives"
+                href: ca/themes/t03-balanç-energetic/slides.qmd
+              - text: "🧮 Problemes"
+                href: ca/themes/t03-balanç-energetic/problemes.qmd
+
       - section: "Activitats"
         contents:
           - activities/practica-r-1.qmd

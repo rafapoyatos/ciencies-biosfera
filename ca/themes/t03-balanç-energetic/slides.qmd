@@ -1,0 +1,412 @@
+---
+title: "Tema 3. Balanç global d'energia"
+format:
+  revealjs:
+    toc: true
+    toc-title: "Contingut"
+    toc-depth: 2
+---
+
+## 3.1. L'energia al Sistema Terra
+
+---
+
+### L'energia al Sistema Terra
+
+- **Entrades, sortides i emmagatzematge** d'energia (balanç).
+- **Transferència d'energia** entre diferents components del Sistema Terra.
+- **Lleis de la termodinàmica**:
+  - (1a) Conservació de l'energia.
+  - (2a) Entropia, direcció de les transformacions energètiques (degradació de l'energia).
+  - (3a) Zero absolut de temperatura (0 K), no hi ha moviments moleculars.
+- **Tipus d'energia**: potencial (química, nuclear, mecànica, gravitacional), cinètica (radiant, elèctrica, tèrmica, moviment d'objectes).
+
+---
+
+### Fonts d'energia del Sistema Terra
+
+- La **radiació solar** és responsable del 99.985% de tota l'energia del Sistema Terra.
+  - Mou els vents, cicle hidrològic, corrents oceànics, fotosíntesi, cicles biogeoquímics...
+- **Calor interna** (0.013% del total):
+  - Cicle tectònic: moviment de plaques, orogènia, sismicitat, vulcanisme.
+- Influència gravitatòria d'altres cossos:
+  - **Marees** (0.002% del total).
+
+---
+
+### Exemple: calor interna de la Terra
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 05.png>){width=90%}
+
+<small>[Geothermal power in Iceland, Wikipedia](https://en.wikipedia.org/wiki/Geothermal_power_in_Iceland) | [El Periódico, 2026](https://www.elperiodico.com/es/sociedad/20260226/cataluna-perforara-falla-valles-energia-geotermica-profunda-127303680)</small>
+
+---
+
+### Fluxos radiatius: ona curta i ona llarga
+
+::: {.columns}
+
+::: {.column width="45%"}
+- Diferents processos d'interacció entre la radiació i els components del Sistema Terra.
+- Fluxos radiatius d'**ona llarga i d'ona curta**.
+:::
+
+::: {.column width="55%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 06.png>){width=100%}
+:::
+
+:::
+
+---
+
+## 3.2. Fluxos radiatius
+
+---
+
+### Origen i magnitud de l'energia solar
+
+::: {.columns}
+
+::: {.column width="45%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 07.png>){width=100%}
+:::
+
+::: {.column width="55%"}
+- **Origen de l'energia solar**: reaccions termonuclears de fusió de nuclis de H (E = m·c²).
+- **Flux d'energia solar** a 1 UA del Sol: ~1367 W·m⁻² (constant solar).
+- **Lluminositat solar**: superfície esfera Sol-Terra × constant solar.
+
+$$4 \cdot \pi \cdot (1.50 \cdot 10^{11}\,\text{m})^2 \cdot 1367\,\text{W·m}^{-2} = 3.86 \cdot 10^{26}\,\text{W}$$
+
+- La Terra rep una molt petita part del total d'energia emesa pel Sol.
+:::
+
+:::
+
+---
+
+### Llei de l'invers del quadrat
+
+::: {.columns}
+
+::: {.column width="50%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 08.png>){width=100%}
+:::
+
+::: {.column width="50%"}
+- **Llei de l'invers del quadrat**: flux d'energia radiativa **inversament proporcional al quadrat de la distància** entre el cos emissor i el receptor.
+
+$$S = S_0 \left(\frac{r_0}{r}\right)^2$$
+
+- $S_0$ = flux a la distància de referència $r_0$
+:::
+
+:::
+
+---
+
+### Flux d'energia: definició
+
+::: {.columns}
+
+::: {.column width="45%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 09.png>){width=100%}
+:::
+
+::: {.column width="55%"}
+- **Flux d'energia**: quantitat d'energia que passa a través d'una àrea determinada per unitat de temps (W·m⁻², J·s⁻¹·m⁻²).
+- El flux mesurat a la superfície depèn de l'**angle d'inclinació** de la mateixa.
+:::
+
+:::
+
+---
+
+### Llei del cosinus de Lambert
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 10.png>){width=80%}
+
+- **Llei del cosinus de Lambert**: on θ és l'angle de la radiació respecte la direcció perpendicular a la superfície.
+
+$$I = I_0 \cdot \cos\theta$$
+
+---
+
+### L'espectre de radiació electromagnètica
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 11.png>){width=100%}
+
+<small>
+- L'**energia dels fotons** és proporcional a la freqüència: $E = h \cdot \nu = h \cdot \frac{c}{\lambda}$
+- $c$ = velocitat llum buit (3·10⁸ m·s⁻¹); $h$ = constant de Planck (6.63·10⁻³⁴ J·s)
+</small>
+
+---
+
+### Cos negre i la funció de Planck
+
+::: {.columns}
+
+::: {.column width="50%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 12.png>){width=100%}
+:::
+
+::: {.column width="50%"}
+- Un **cos negre** absorbeix (i emet) radiació electromagnètica amb una eficiència del 100% en totes les longituds d'ona.
+- La **radiació emesa** depèn de la temperatura del cos segons la **funció de Planck**.
+:::
+
+:::
+
+---
+
+### Llei de Wien
+
+::: {.columns}
+
+::: {.column width="55%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 13.png>){width=100%}
+:::
+
+::: {.column width="45%"}
+- La **Llei de Wien** relaciona la temperatura del cos amb el màxim de la distribució de longituds d'ona.
+
+$$\lambda_{max} \approx \frac{2898}{T}$$
+
+- Pel Sol (T ≈ 5800 K): $\lambda_{max} \approx 0.5\,\mu\text{m}$
+- I per la Terra (T ≈ 288 K)?
+- L'atmosfera modifica l'espectre de la radiació solar que arriba a la superfície.
+:::
+
+:::
+
+---
+
+### Llei de Stefan-Boltzmann
+
+::: {.columns}
+
+::: {.column width="55%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 14.png>){width=100%}
+:::
+
+::: {.column width="45%"}
+- La **Llei de Stefan-Boltzmann** relaciona la radiació emesa per un cos (E, W·m⁻²) amb la seva temperatura T (K):
+
+$$E = \epsilon \cdot \sigma \cdot T^4$$
+
+- σ = 5.67·10⁻⁸ W·m⁻²·K⁻⁴
+- ε = emissivitat (cos negre: ε = 1)
+- Per sòl, vegetació i aigua: ε ≈ 0.95–0.98
+:::
+
+:::
+
+---
+
+### Interaccions radiació-matèria
+
+::: {.columns}
+
+::: {.column width="55%"}
+- La radiació pot ser **reflectida, absorbida o transmesa**:
+  - Reflectivitat (r) = radiació reflectida / incident
+  - Absortivitat (a) = radiació absorbida / incident
+  - Transmissivitat (t) = radiació transmesa / incident
+- En general: **r + a + t = 1**
+- Aquestes interaccions depenen de la longitud d'ona.
+:::
+
+::: {.column width="45%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 15.png>){width=100%}
+
+<small>[Light Absorption, Reflection, and Transmission](https://www.youtube.com/watch?v=DOsro2kGjGc)</small>
+:::
+
+:::
+
+---
+
+### Estacionalitat i declinació solar
+
+::: {.columns}
+
+::: {.column width="40%"}
+- **Estacionalitat**: causada per la inclinació de l'eix de rotació de la Terra (**obliqüitat**).
+- **Declinació**: angle format per la línia que connecta els centres del Sol i la Terra amb el pla equatorial (de 23.5° a -23.5°).
+:::
+
+::: {.column width="60%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 16.png>){width=100%}
+
+<small>[Solar declination](https://www.youtube.com/watch?v=E_3KOhJnabE)</small>
+:::
+
+:::
+
+---
+
+### Geometria solar i radiació extraterrestre
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 17.png>){width=90%}
+
+<small>
+- **Radiació solar extraterrestre** (*Top of the atmosphere solar radiation*): depèn de la constant solar, l'angle zenital i la distància Sol-Terra.
+- Exemple: al Gener, 3.5% més radiació que a la distància mitjana Terra-Sol (3.25% menys al Juliol).
+</small>
+
+---
+
+### Sortida del Sol a Barcelona: solstici estiu vs hivern
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 18.png>){width=85%}
+
+<small>[Betevé: com varia el punt de sortida del sol a Barcelona](https://beteve.cat/medi-ambient/aixi-varia-el-punt-per-on-surt-el-sol-al-llarg-de-lany-a-barcelona/)</small>
+
+---
+
+### Efecte de l'angle zenital sobre la radiació
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 19.png>){width=80%}
+
+---
+
+### Cicle diürn al solstici d'estiu
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 20.png>){width=90%}
+
+- **Solstici estiu**: duració del dia augmenta amb la latitud; latituds 15° N i 30° N reben més radiació que l'Equador.
+
+---
+
+### Radiació solar extraterrestre per latitud i mes
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 21.png>){width=75%}
+
+<small>
+Radiació solar extraterrestre (MJ·m⁻²·dia⁻¹). Llegenda: 0 (colors foscos) — 45 MJ·m⁻²·dia⁻¹ (colors clars).
+
+Als solsticis d'estiu, quines latituds reben més radiació diària? Per què?
+
+[NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/)
+</small>
+
+---
+
+### Radiació directa i difosa
+
+::: {.columns}
+
+::: {.column width="55%"}
+- La radiació entra a l'atmosfera i pot ser absorbida per diferents components atmosfèrics.
+- Pot arribar directament a la superfície (**radiació directa**).
+- Pot ser dispersada per núvols i aerosols: **radiació difosa** en totes les direccions.
+- Mesures: **piranòmetre**, **difusòmetre**.
+:::
+
+::: {.column width="45%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 22.png>){width=100%}
+
+<small>[hukx.com](https://www.hukx.com/applications/what-is-a-diffusometer)</small>
+:::
+
+:::
+
+---
+
+### Radiació solar mesurada: Vall del Tillar
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 23.png>){width=85%}
+
+<small>
+Radiació solar global (Rs, W·m⁻²) mesurada en un vessant boscós a la Vall del Tillar (Muntanyes de Prades, Tarragona).
+
+**Què ens diuen aquests patrons temporals?**
+</small>
+
+---
+
+## 3.3. Transferència d'energia i radiació neta
+
+---
+
+### Mecanismes de transferència d'energia
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 24.png>){width=70%}
+
+---
+
+### Canvis de fase de l'aigua
+
+::: {.columns}
+
+::: {.column width="55%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 25.png>){width=100%}
+:::
+
+::: {.column width="45%"}
+- Els canvis de fase de l'aigua tenen implicacions en el balanç energètic a l'atmosfera. **Per què?**
+
+| | |
+|---|---|
+| Calor latent vaporització H₂O (20°C) | 2454·10³ J·kg⁻¹ |
+| Calor específica H₂O (20°C) | 4182 J·kg⁻¹·K⁻¹ |
+| Calor específica aire (20°C) | 1010 J·kg⁻¹·K⁻¹ |
+:::
+
+:::
+
+---
+
+## 3.4. Radiació neta
+
+---
+
+### Radiació neta
+
+::: {.columns}
+
+::: {.column width="50%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 26.png>){width=100%}
+:::
+
+::: {.column width="50%"}
+- **Radiació neta**: balanç entre l'energia radiativa absorbida i emesa, per ona llarga ($R_L$) i ona curta ($R_s$).
+
+$$R_n = R_s{\downarrow} - R_s{\uparrow} + R_L{\downarrow} - R_L{\uparrow}$$
+
+- La temperatura de la superfície de la Terra dependrà fonamentalment d'aquest balanç radiatiu.
+- La radiació neta pot ser **positiva o negativa**.
+:::
+
+:::
+
+---
+
+### Radiació neta global: variació estacional
+
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 27.png>){width=80%}
+
+<small>
+[NASA Earth Observatory – Seasonal changes in global net radiation](https://science.nasa.gov/earth/earth-observatory/seasonal-changes-in-global-net-radiation-35555/) |
+[Global maps: net radiation](https://science.nasa.gov/earth/earth-observatory/global-maps/net-radiation/)
+</small>
+
+---
+
+### Components del balanç energètic
+
+::: {.columns}
+
+::: {.column width="40%"}
+- La radiació neta ($R_n$) quantifica l'energia disponible per altres processos:
+  - **Calor sensible** ($H$): escalfa l'aire circumdant, mou processos convectius.
+  - **Calor latent** ($\lambda E$): energia invertida en l'evaporació de l'aigua.
+  - **Flux de calor al sòl** ($G$): energia transferida per conducció al sòl.
+:::
+
+::: {.column width="60%"}
+![](</assets/img/t03-balanç-energetic/T03_BalançEnergia_2025-2026_1 - 28.png>){width=100%}
+:::
+
+:::

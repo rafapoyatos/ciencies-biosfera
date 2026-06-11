@@ -1,0 +1,18 @@
+---
+title: "Tema 2. Sistemes"
+format: html
+---
+
+La biosfera i el clima de la Terra s'entenen millor com a **sistemes**: conjunts
+de components interconnectats que intercanvien energia i matèria. En aquest tema
+introduïm el pensament sistèmic i les eines que ens permeten descriure i
+quantificar el comportament d'aquests sistemes.
+
+## Continguts teòrics
+
+2.1. Concepte de sistema: components, fluxos i reserves.  
+2.2. Retroalimentació positiva i negativa.  
+2.3. Fluxos d'energia i radiació solar.  
+2.4. Estats estacionaris i temps de residència.
+
+

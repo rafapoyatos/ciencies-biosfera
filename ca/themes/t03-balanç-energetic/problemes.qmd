@@ -1,0 +1,132 @@
+---
+title: "Tema 3. Problemes"
+author:
+  - Josep Piñol
+  - Rafael Poyatos
+format:
+  html:
+    toc: true
+    toc-location: right
+    toc-title: "Contingut"
+    toc-depth: 3
+    toc-expand: true
+
+engine: knitr
+
+filters:
+  - webr
+
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Problema 3.1
+
+Venus i Mart orbiten el Sol a unes distàncies mitjanes de 0.72 UA i 1.52 UA,
+respectivament. Quin és el flux de radiació que reben? Considera 1367 W·m⁻²
+com el flux mitjà que rep la Terra.
+
+::: {.callout-tip collapse="true"}
+## Solució
+
+Per la llei quadràtica inversa de la variació de l'energia amb la distància sabem que:
+
+$$\frac{S_1}{S_2} = \left(\frac{r_2}{r_1}\right)^2$$
+
+on $r_1$ i $r_2$ són les distàncies al focus emissor dels punts $p_1$ i $p_2$, i
+$S_1$ i $S_2$ són la radiació que reben.
+
+Considerem que $p_2$ és la Terra i $p_1$ Mart. Llavors:
+
+$$S_1 = S_2 \cdot \left(\frac{r_2}{r_1}\right)^2 = 1367 \cdot \left(\frac{1}{1.52}\right)^2 = 592 \text{ W·m}^{-2}$$
+
+Anàlogament, si ara $p_2$ és la Terra i $p_1$ Venus:
+
+$$S_1 = S_2 \cdot \left(\frac{r_2}{r_1}\right)^2 = 1367 \cdot \left(\frac{1}{0.72}\right)^2 = 2637 \text{ W·m}^{-2}$$
+
+Per tant, **Venus rebria un flux de radiació de 2637 W·m⁻² i Mart de 592 W·m⁻²**.
+
+### Solució en R
+
+```{webr-r}
+S2 <- 1367   # W/m², flux solar a la Terra (referència)
+r2 <- 1      # UA, distància Terra-Sol (referència)
+
+# Venus
+r1 <- 0.72   # UA
+S1_venus <- S2 * (r2 / r1)^2
+S1_venus
+
+# Mart
+r1 <- 1.52   # UA
+S1_mart <- S2 * (r2 / r1)^2
+S1_mart
+```
+
+:::
+
+---
+
+## Problema 3.2
+
+Venus té un albedo de 0.8 i Mart de 0.22. Utilitzant el resultat del problema
+anterior, determina la temperatura d'equilibri dels dos planetes en absència
+d'atmosfera. Et sorprenen aquests resultats en comparació amb la Terra?
+
+::: {.callout-tip collapse="true"}
+## Solució
+
+La temperatura d'equilibri d'un planeta s'obté igualant l'energia solar
+absorbida amb l'energia infraroja emesa. Integrant la llei de Stefan-Boltzmann
+sobre la superfície del planeta s'obté:
+
+$$T_e = \sqrt[4]{\frac{S \cdot (1 - \alpha)}{4 \cdot \epsilon \cdot \sigma}}$$
+
+on $S$ és el flux solar rebut, $\alpha$ l'albedo, $\epsilon$ l'emissivitat i
+$\sigma = 5.67 \cdot 10^{-8}$ W·m⁻²·K⁻⁴ la constant de Stefan-Boltzmann.
+Suposem $\epsilon = 1$ per a tots els planetes.
+
+**Venus** ($S = 2637$ W·m⁻², $\alpha = 0.8$):
+
+$$T_e = \sqrt[4]{\frac{2637 \cdot (1 - 0.8)}{4 \cdot 1 \cdot 5.67 \cdot 10^{-8}}} = 219.6 \text{ K}$$
+
+**Mart** ($S = 592$ W·m⁻², $\alpha = 0.22$):
+
+$$T_e = \sqrt[4]{\frac{592 \cdot (1 - 0.22)}{4 \cdot 1 \cdot 5.67 \cdot 10^{-8}}} = 212.4 \text{ K}$$
+
+Per comparar, calculem també la **Terra** ($S = 1367$ W·m⁻², $\alpha = 0.30$):
+
+$$T_e = \sqrt[4]{\frac{1367 \cdot (1 - 0.30)}{4 \cdot 1 \cdot 5.67 \cdot 10^{-8}}} = 254.9 \text{ K}$$
+
+En principi esperaríem que com més lluny del Sol estigués un planeta, més freda
+fos la seva temperatura d'equilibri. En el nostre cas no es compleix: la Terra
+té una temperatura superior a Venus. La raó és l'albedo tan elevat de Venus.
+
+### Solució en R
+
+```{webr-r}
+sigma   <- 5.67e-8   # W·m⁻²·K⁻⁴, constant de Stefan-Boltzmann
+epsilon <- 1         # emissivitat (cos negre)
+
+# Venus
+S     <- 2637        # W/m², flux solar (Problema 3.1)
+alpha <- 0.80        # albedo
+Te_venus <- (S * (1 - alpha) / (4 * epsilon * sigma))^(1/4)
+Te_venus
+
+# Mart
+S     <- 592
+alpha <- 0.22
+Te_mart <- (S * (1 - alpha) / (4 * epsilon * sigma))^(1/4)
+Te_mart
+
+# Terra (comparació)
+S     <- 1367
+alpha <- 0.30
+Te_terra <- (S * (1 - alpha) / (4 * epsilon * sigma))^(1/4)
+Te_terra
+```
+
+:::

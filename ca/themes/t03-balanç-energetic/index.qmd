@@ -1,0 +1,22 @@
+---
+title: "Tema 3. Balanç Energètic"
+format: html
+---
+
+La temperatura de la Terra és el resultat d'un equilibri entre l'energia solar
+que absorbeix el planeta i l'energia que aquest emet cap a l'espai en forma de
+radiació infraroja. Entendre aquest **balanç energètic** és fonamental per
+explicar el clima actual i les seves variacions.
+
+## Continguts teòrics
+
+3.1. Flux de radiació solar i llei de l'invers del quadrat.  
+3.2. Albedo planetari i radiació absorbida.  
+3.3. Emissió infraroja i llei de Stefan-Boltzmann.  
+3.4. Temperatura d'equilibri planetari.  
+3.5. L'efecte hivernacle i la seva influència sobre la temperatura.
+
+## Activitats
+
+- [🎞️ Diapositives](slides.qmd)
+- [🧮 Problemes](problemes.qmd)
