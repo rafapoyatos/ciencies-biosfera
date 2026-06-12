@@ -14,18 +14,29 @@ execute:
   message: false
 ---
 
-## 2.1. Concepte de sistema: components, reserves i fluxos
+## 2.1. La Terra com a sistema
 
-<!-- contingut pendent -->
+### Teoria de sistemes
 
-## 2.2. Retroalimentació positiva i negativa
+De manera coherent, seguint una sèrie de normes.
+Descriure exemples de cadascun dels punts.
 
-<!-- contingut pendent -->
+### Teoria de sistemes
 
-## 2.3. Estats estacionaris i temps de residència
 
-<!-- contingut pendent -->
+### La Terra com a sistema
 
-## 2.4. Els grans cicles biogeoquímics
+La Terra seria un sistema quasi-tancat, a la pràctica el considerem tancat.
 
-<!-- contingut pendent -->
+## 2.2. Caracteritzar els sistemes
+
+### Fluxos i estocs de matèria
+
+### Variació temporal dels estocs
+
+### El sistema en estat estacionari
+
+### Temps de residència i taxa de renovació
+
+Com caracteritzem i quantifiquem els sistemes?
+

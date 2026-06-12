@@ -7,7 +7,7 @@ format: html
 
 TODO: podria generar-se aquest índex a partir dels documents slides o notes?
 1.1. Orígens de les ciències de la biosfera.
-1.2. Eines, conceptes i metodologies per les ciències de la biosfera.
+<!-- 1.2. Eines, conceptes i metodologies per les ciències de la biosfera. -->
 1.3. La Terra com a sistema.
 
 ### Materials

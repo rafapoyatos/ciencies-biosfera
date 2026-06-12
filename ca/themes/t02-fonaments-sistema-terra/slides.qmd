@@ -7,58 +7,110 @@ format:
     toc-depth: 2
 ---
 
-## 2.1. Concepte de sistema
+## 2.1. La Terra com a sistema
+
+TODO: pregunta Wooclap
+La quantitat de carboni a l'atmosfera és determinada principalment per:
+
+a) La quantitat total de carboni a la Terra
+b) El balanç entre entrades i sortides
+c) La temperatura
+d) Els volcans
 
 ---
 
-### Reserves i fluxos
+### Teoria de sistemes
 
+* Sistema: conjunt de components interrelacionats de manera coherent per a realitzar una funció.
+* Com identifiquem un sistema?
+  - El podem delimitar?
+  - Podem identificar-ne la funció?
+  - Identifiquem els components (subsistemes)?
+  - Interaccionen els seus components?
+  - Canvis en un component generen canvis no trivials al sistema?
+
+---
+
+### Teoria de sistemes
+
+* Podem descriure i analitzar un sistema a partir del seu estat i de les relacions entre els seus components:
+  - Atributs, variables d'estat.
+  - Fluxos de matèria, d'energia, d'informació.
+  - Reservoris (compartiments, estocs) de matèria i energia.
+  - Acoblament entre els subsistemes.
+
+---
+
+### La Terra com a sistema
+
+* Sistemes aïllats, tancats o oberts.
+* Quin tipus de sistema és la Terra?
+* Com són els subsistemes del sistema Terra?
+
+---
+
+## 2.2. Caracteritzar els sistemes
+
+TODO: Imatges sistemes de diferent complexitat, ex embassament vs diagrama cicle C global
+
+---
+
+### Fluxos i estocs de matèria
+
+* Balanç masses
 <!-- contingut pendent -->
+*TODO: imatges d'entrades i sortides
 
 ---
 
-## 2.2. Retroalimentació positiva i negativa
+### Variació temporal dels estocs
+
+* Les reserves s’incrementen quan les entrades augmenten o les sortides disminueixen.
+* Els fluxes triguen temps -> les reserves  canvien lentament i esmorteeixen les  fluctuacions dels fluxes i el funcionament del sistema.
+* Les reserves permeten desacoblar els fluxes d’entrada i sortida.
 
 ---
 
-### Retroalimentació positiva
+### El sistema en estat estacionari
 
-<!-- contingut pendent -->
-
----
-
-### Retroalimentació negativa
-
-<!-- contingut pendent -->
+* Estat estacionari: entrades = sortides.
+* Equilibri dinàmic.
+* No és estrictament un equilibri termodinàmic.
 
 ---
 
-## 2.3. Estats estacionaris i temps de residència
+### Temps de residència i taxa de renovació
+
+* Temps de residència: temps necessari per renovar el contingut d’un compartiment al  ritme marcat pel flux a l’equilibri
+* Taxa de renovació: nombre de vegades que es renova el contingut del compartiment per unitat de temps 
 
 ---
 
-### Estat estacionari
+### Exemple: cicle del carboni
 
-<!-- contingut pendent -->
-
----
-
-### Temps de residència
-
-<!-- contingut pendent -->
+* Calcular la taxa de renovació i el temps de residència de la matèria 
+orgànica (aproximats) en diferents ecosistemes del món a partir de les dadesde producció primària neta i de biomassa de la taula següent. 
+(Whittaker in Begon et al. 1999)
 
 ---
 
-## 2.4. Els grans cicles biogeoquímics
+### Exemple: ciclde de l'aigua
+
+* Cicle de l'aigua
 
 ---
 
-### El cicle del carboni
+## 2.3. Interacció entre fluxos i compartiments
 
-<!-- contingut pendent -->
+TODO: començar amb exemple de descomposició
+TODO: exemple de reciclatge-> potser deixar per problemes
+
+## 2.4. El sistema fora de l'estat estacionari
 
 ---
 
-### El cicle de l'aigua
+### Entendre el sistema Terra enmig de la crisi ambiental
 
-<!-- contingut pendent -->
+* CO2: desequilibri fluxos
+* Eutrofització: excés de nutrients
+* CFCs: llargs temps de residència
