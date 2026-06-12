@@ -97,7 +97,7 @@ La **magnetosfera lunar** pertany a la Lluna, no al Sistema Terra.
 
 **10.** Completa: Steffen et al. (2018) van proposar el concepte de **trajectòries del sistema Terra** per descriure els possibles futurs del planeta en funció de les `r fitb(c("emissions", "accions humanes", "pressions antròpiques"), ignore_case = TRUE)` humanes.
 
-::: {.callout-note collapse="true"}
+<!-- ::: {.callout-note collapse="true"} -->
 ## Resposta
 Steffen et al. (2018) parlen de **pressions antròpiques** (o accions humanes / emissions) com a factor determinant de les trajectòries futures del sistema Terra.
 :::
